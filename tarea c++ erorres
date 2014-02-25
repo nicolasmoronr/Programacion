@@ -1,0 +1,19 @@
+// Tarea errores.cpp : Defines the entry point for the console application.
+// Autor: Nicolas Moron R.
+// Fecha: 25/02/14
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+ 
+using namespace std;
+int main() {
+     float base, altura,area;
+	 cout <<"ingrese altura:\n";
+     cin>>altura;
+     cout <<"Ingrese base:\n";
+     cin>>base;
+	 area = (base*altura)/2;
+	 cout <<"Resultado:\n";
+     cout<<area;
+	 getch();	 
+}
