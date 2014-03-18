@@ -1,0 +1,32 @@
+// Mayorde3.cpp : Defines the entry point for the console application.
+//autor:Nicolas Moron
+//fecha:18/03/14
+
+#include "stdafx.h"
+#include "iostream"
+#include "conio.h"
+#include "math.h"
+using namespace std; 
+void main() 
+{ 
+	float Numero1,Numero2,Numero3;
+	    cout<<"ingrese numero 1:";    
+	    cin>>Numero1;
+		cout<<"ingrese numero 2:";
+		cin>>Numero2;
+		cout<<"ingrese numero 3:";
+		cin>>Numero3;
+		if(Numero1>Numero2)
+			if(Numero1>Numero3)
+				cout<<Numero1;
+			else
+			cout<<Numero3;
+		else
+		;if (Numero2>Numero3)
+				cout<<Numero2
+			;else
+			cout<<Numero3;
+		getch();
+
+}
+
