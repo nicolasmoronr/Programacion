@@ -1,0 +1,28 @@
+// encontrarnumerospares.cpp : Defines the entry point for the console application.
+//Autor; Nicolas Moron
+//Fecha :15 de abril 
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main ()
+
+{ 
+	int suma, i, N, cont ;
+
+	cout << "ingresar el valor de N:";
+    cin >> N;
+	suma = 0;
+	i=1;
+    cont=2;
+    while(i<=N)
+	{
+		suma=suma+cont;
+	    cont=cont+2;
+		i=i+1;
+	}
+	cout<< suma;
+	getch ();
+}
