@@ -1,0 +1,37 @@
+// cartas.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+void main ()
+
+{
+	float  Costo, Peso;
+	cin>> Peso;
+	cout<<"ingrese el peso";
+
+	if (0<Peso) && (Peso<50)
+		Costo=1.50* Peso
+	else
+		if (50 < Peso)&&(Peso <= 100)
+			Costo=4.00* Peso
+		else
+			if (100 < Peso)&&(Peso <= 200)
+				Costo=6.00*Peso
+			else
+			    if (200 < Peso)&&(Peso <= 350)
+					Costo=10.50*Peso
+				else
+				    if (350 < Peso)&&(Peso <= 500 )
+						Costo=15.00
+					else
+                        if (Peso  > 500 )
+							cout<<"No se puede enviar como carta";
+	getch ();
+
+}
+
