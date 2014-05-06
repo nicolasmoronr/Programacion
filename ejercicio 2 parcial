@@ -1,0 +1,30 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+
+void main() 
+{
+	int N,R,D,S;
+	float i;
+	cout << "ingrese el numero ";
+	cin>> N;
+	cout>> " ingrese la base ";
+	cin>> R;
+	s=0;
+	i=0;
+	while (N > 0)
+    (
+	   D=N % 10;
+	   N=N / 10;
+	   S=S + D * pow (R,i);
+	   i=i +1 ;
+	 )
+		cout<<"el valor del numero en basse decimal es :";
+		cout<< S
+		getch () ;
+
+}
+
