@@ -1,0 +1,49 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "stdlib.h"
+
+using namespace std;
+
+void main()
+{
+  int a,b,Resultado,Opc;
+  system ("color 70");
+  do
+  {
+  cout<< "\t\t\t\t MENU";
+  cout<< "\n\nIngrese el valor de A: ";
+  cin>> a;
+  cout<< "\n\nIngrese el valor de B: ";
+  cin>> b;
+  cout<< "\n\nPresione: \n\n 1.-Suma\n\n 2.-Resta\n\n 3.-Multiplicar\n\n 4.-Dividir\n\n 0.-Salir\n\n";
+  cin>> Opc;
+  if (Opc==1)
+  {
+Resultado = a + b;
+cout<< Resultado;
+
+  }
+  else
+if (Opc==2)
+{
+Resultado = a - b;
+cout<< Resultado;
+}
+  if (Opc==3)
+  {
+Resultado = a * b;
+cout<< Resultado;
+  }
+  else
+if (Opc==4)
+{
+Resultado = a / b;
+cout<< Resultado;
+}
+system("cls");
+  }
+  while(Opc!=0);
+     
+  
+}
